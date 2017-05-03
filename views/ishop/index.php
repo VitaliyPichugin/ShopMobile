@@ -1,0 +1,13 @@
+<?php require_once 'inc/header.php' ?>
+<div id="contentwraper">
+  <div id="content">
+  <?php include $view.'.php' ?>
+  </div>
+</div>
+
+<?php require_once 'inc/leftbar.php' ?>
+<?php require_once 'inc/rightbar.php'?>
+<?php require_once 'inc/footer.php' ?>          
+</div>
+</body>
+</html>
